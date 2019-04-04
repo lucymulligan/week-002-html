@@ -1,16 +1,21 @@
 h1 {
     size: 30px;
-    color: whitesmoke;
+    color: teal;
     text-align: center;
-    background-color: coral;
     padding: 5px;
 }
 
 h2 {
     size: 20px;
-    color: whitesmoke;
+    color: darkmagenta;
     text-align: center;
-    background-color: coral;
+    padding: 5px;
+}
+
+h3 {
+    size: 15px;
+    color: darkmagenta;
+    text-align: center;
     padding: 5px;
 }
 
@@ -24,14 +29,20 @@ input {
 }
 
 body {
-    background-color: coral;
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: solid;
     border-width: 20px;
-    border-color: whitesmoke; 
+    border-color: teal; 
 }
 
 button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
+}
+
+#leafs {
+    align-items: center;
+    padding: 20px;
+
 }
