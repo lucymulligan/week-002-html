@@ -7,14 +7,14 @@ h1 {
 
 h2 {
     size: 20px;
-    color: darkmagenta;
+    color: black;
     text-align: center;
     padding: 5px;
 }
 
 h3 {
     size: 15px;
-    color: darkmagenta;
+    color: black;
     text-align: center;
     padding: 5px;
 }
@@ -23,26 +23,25 @@ input {
     font-size: 15px;
     width: 50%;
     color: black; 
-    padding: 20px;
+    padding: 10px;
     margin-left: 10%;
     margin-right: 3%; 
 }
 
 body {
     background-color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Heebo', sans-serif;
     border: solid;
-    border-width: 20px;
+    border-width: 12px;
     border-color: teal; 
 }
 
 button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 15px;
 }
 
 #leafs {
     align-items: center;
     padding: 20px;
-
 }
