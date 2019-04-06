@@ -1,6 +1,6 @@
 h1 {
     size: 30px;
-    color: teal;
+    color: black;
     text-align: center;
     padding: 5px;
 }
@@ -8,8 +8,17 @@ h1 {
 h2 {
     size: 20px;
     color: black;
+    background-color: lightseagreen;
     text-align: center;
-    padding: 5px;
+    padding-top: 5px;
+}
+
+h4 {
+    size: 12px;
+    color: black;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 2px;
 }
 
 h3 {
@@ -30,18 +39,24 @@ input {
 
 body {
     background-color: white;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     border: solid;
     border-width: 12px;
-    border-color: teal; 
+    border-color: black; 
+}
+
+table {
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 button {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
-#leafs {
-    align-items: center;
-    padding: 20px;
+#flowers {
+    margin: 15px;
+    padding: 10px; 
+    
 }
