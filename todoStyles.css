@@ -1,12 +1,12 @@
 h1 {
-    size: 30px;
+    font-size: 30px;
     color: black;
     text-align: center;
     padding: 5px;
 }
 
 h2 {
-    size: 20px;
+    font-size: 20px;
     color: black;
     background-color: lightseagreen;
     text-align: center;
@@ -14,7 +14,7 @@ h2 {
 }
 
 h4 {
-    size: 12px;
+    font-size: 12px;
     color: black;
     background-color: lightseagreen;
     text-align: center;
@@ -22,7 +22,7 @@ h4 {
 }
 
 h3 {
-    size: 15px;
+    font-size: 15px;
     color: black;
     text-align: center;
     padding: 5px;
@@ -59,4 +59,26 @@ button {
     margin: 15px;
     padding: 10px; 
     
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 30px;
+        color: yellow;
+        text-align: center;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: lightcoral;
+    }
+    h1 {
+        font-size: 30px;
+        color: grey;
+        text-align: center;
+        padding: 5px;
+    }
 }
