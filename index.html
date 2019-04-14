@@ -6,34 +6,67 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
    <title>My To-Do List</title> 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="todoStyles.css"/>
 </head>
-
-    <body>
-            <h1>Here's a List of Things To Do</h1>
-            <h2>Let's work through them together</h2>
-            <form><input type ="text"/><button type="submit">Add this to my list!</button></form>
-            <h3>How many tasks do we have left to do?</h3>
-            <h4>3 to go!</h4>
-    <div>
-        <div><img id ="flowers" src="https://www.onlygfx.com/wp-content/uploads/2018/01/flower-line-broder-5.png" style = "width: 95%;"></div>
-       <div>
-           <table>
-           <tr>
-               <th>Tasks</th>
-           </tr>
-           <tr>
-               <td>Complete task 1 <button type="submit">Complete</button><button type="reset">Delete</button></td>
-           </tr>
-           <tr>
-                <td>Complete task 2 <button type="submit">Complete</button><button type="reset">Delete</button></td>
-           </tr>
-           <tr>
-                <td>Complete task 3 <button type="submit">Complete</button><button type="reset">Delete</button></td>
-             </tr>
-           </table>
-        </div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>To-Do List</title>
+    <style>
+    img {
+        width: 100px;
+    }</style>
+</head>
+<body>
+    <h1>Your Personal Assistant: Your To-Do List.</h1>
+    <h3>Helping you make light work of it.
+            <small class="text-muted">And stay on top of things.</small>
+          </h3>
+    <div class="container">
+        <div class="row">
+                <div class="col-lg col-sm-3"><img src="https://images.pexels.com/photos/436784/pexels-photo-436784.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="img-fluid" alt="Responsive image" image-width=25%></div>
+                <div class="col-lg col-sm-3"><img src="https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"class="img-fluid" alt="Responsive image" image-width=25%></div>
+                <div class="col-lg col-sm-3"><img src="https://images.pexels.com/photos/1056555/pexels-photo-1056555.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"class="img-fluid" alt="Responsive image" image-width=25%></div>
+                <div class="col-lg col-sm-3"><img src="https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"class="img-fluid" alt="Responsive image" image-width=25%></div> 
+            </div>
+            </container>
+          
+    <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <h4>Tasks</h4>
+              </div>
+              <div class="col-sm">
+                <h4>Priority</h4>
+              </div>
+              <div class="col-sm">
+                <h4>Status</h4>
+              </div>
+              <div class="col-sm">
+                <h4>Notes</h4>
+              </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm">
+                      <p>Take dog for a walk</p>
+                    </div>
+                    <div class="col-sm">
+                    <p>High</p>
+                    </div>
+                    <div class="col-sm">
+                    <button type="button" class="btn btn-success">Complete</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                    <div class="col-sm">
+                    <button type="button" class="btn btn-info">Due 17/04/2019</button>
+                    </div>
+                  </div>
+          </div>
     </div>
-    </body>
+      </body>
 </html>
